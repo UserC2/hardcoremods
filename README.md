@@ -19,7 +19,7 @@ Change `I:huecoMundoID=6` to `I:huecoMundoID=8` in `.minecraft/config/bleach_kd.
 - Install Git from [this website](https://git-scm.com/downloads). (Select your computer's operating system.)
 - Press `click here to download`, and run the installer file.
 - Once you complete the installer, navigate to your Minecraft mods folder, and right-click, then select `Git Bash here`.
-- Type in `git clone https://github.com/UserC2/minecraftmods`.
+- Type in `git clone https://github.com/UserC2/minecraftmods .`. Do not forget the dot at the end, without it git will copy the mods into a `minecraftmods` folder within your mods folder.
 
 Your mods will now be downloaded. To update mods, run `git pull` in your mods folder. This will retrieve all of the latest mods.
 
