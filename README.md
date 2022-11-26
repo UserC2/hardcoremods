@@ -2,6 +2,8 @@
 
 Holds a package of minecraft mods being used in the Minecraft server.
 
+Change `I:huecoMundoID=6` to `I:huecoMundoID=8` in `.minecraft/config/bleach_kd.cfg`, or else Minecraft will crash as dimension ID 6 is already used by Kamen Rider Craft.
+
 ## Downloading all mods
 
 ### Manual Installation
@@ -14,7 +16,7 @@ Holds a package of minecraft mods being used in the Minecraft server.
 - Press `Extract`.
 
 ### Using Git
-- Install Git from [this website](). (Select your computer's operating system.)
+- Install Git from [this website](https://git-scm.com/downloads). (Select your computer's operating system.)
 - Press `click here to download`, and run the installer file.
 - Once you complete the installer, navigate to your Minecraft mods folder, and right-click, then select `Git Bash here`.
 - Type in `git clone https://github.com/UserC2/minecraftmods`.
