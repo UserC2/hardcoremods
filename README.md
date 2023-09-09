@@ -1,13 +1,12 @@
-# Minecraft Hardcore Server Mods
+# Minecraft Server Mods
 
-Holds a package of minecraft mods being used in the Minecraft server.
-
-Change `I:huecoMundoID=6` to `I:huecoMundoID=8` in `.minecraft/config/bleach_kd.cfg`, or else Minecraft will crash as dimension ID 6 is already used by Kamen Rider Craft.
+Holds the mods being used in various Minecraft servers.
 
 ## Downloading all mods
 
 ### Manual Installation
 - Open `https://github.com/UserC2/minecraftmods` in your browser.
+- **Click the branch button (should say `main` by default), and choose the appropriate server from the dropdown.**
 - Press the green `<> Code` button.
 - Select `Local`, then press `Download ZIP`.
 - Open your downloads folder, and right click the ZIP file, then select `Extract All`.
@@ -19,7 +18,8 @@ Change `I:huecoMundoID=6` to `I:huecoMundoID=8` in `.minecraft/config/bleach_kd.
 - Install Git from [this website](https://git-scm.com/downloads). (Select your computer's operating system.)
 - Press `click here to download`, and run the installer file.
 - Once you complete the installer, navigate to your Minecraft mods folder, and right-click, then select `Git Bash here`.
-- Type in `git clone https://github.com/UserC2/minecraftmods .`. Do not forget the dot at the end, without it git will copy the mods into a `minecraftmods` folder within your mods folder.
+- Find the branch name for the server you are going to play (ask UserC2 or press the branch button (should say `main` by default), then press "view all branches").
+- Type in `git clone -b NAME_OF_BRANCH https://github.com/UserC2/minecraftmods .`.
+- Do not forget the dot at the end, without it git will copy the mods into a `minecraftmods` folder within your mods folder.
 
 Your mods will now be downloaded. To update mods, run `git pull` in your mods folder. This will retrieve all of the latest mods.
-
