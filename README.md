@@ -23,3 +23,8 @@ Holds the mods being used in various Minecraft servers.
 - Do not forget the dot at the end, without it git will copy the mods into a `minecraftmods` folder within your mods folder.
 
 Your mods will now be downloaded. To update mods, run `git pull` in your mods folder. This will retrieve all of the latest mods.
+
+### Update_Mods.bat
+- Download the file (place it anywhere) then right-click it and select "Edit".
+- Follow the instructions in the file.
+- Whenever you want to update your mods, double-click the file to run it.
